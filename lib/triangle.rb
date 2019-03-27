@@ -22,13 +22,13 @@ class Triangle
 
   end
 
-  class Triangle
-  # triangle code
 
-    class TriangleError < StandardError
-      # triangle error code
+  class TriangleError < StandardError
+    def message
+
     end
-
   end
+
+
 
 end
